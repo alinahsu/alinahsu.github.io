@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Narrow gate leadeth unto life.</title>
+  
+  <subtitle>AliNAs HoME</subtitle>
+  <link href="https://example.com/rss.xml" rel="self"/>
+  
+  <link href="https://example.com/"/>
+  <updated>2025-04-22T10:13:59.721Z</updated>
+  <id>https://example.com/</id>
+  
+  <author>
+    <name>XU</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>First</title>
+    <link href="https://example.com/2025/04/22/First/"/>
+    <id>https://example.com/2025/04/22/First/</id>
+    <published>2025-04-22T09:20:48.000Z</published>
+    <updated>2025-04-22T10:13:59.721Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎来到我的网站"><a href="#欢迎来到我的网站" class="headerlink" title="欢迎来到我的网站"></a>欢迎来到我的网站</h1><h3 id="关于网站搭建"><a href="#关于网站搭建" class="headerlink" title="关于网站搭建"></a>关于网站搭建</h3><p>   大约三月初受到启发开始搭建，第一次搭建由于无论如何都无法deploy失败了。陆陆续续学了些oop往答疑坊跑了好几次，知道了choco的用法也学会了一些快捷键。后来又惊奇的发现某些软件的安装居然需要调整电脑中杀毒软件的配置。</p><p>  2025.4.22，我又一次挑战hexo尝试配置个人博客。又是deploy不上去。我翻遍了google和CSDN，尝试了各种方法。跌跌撞撞，在学长志愿者的帮助下，终于发出了自己的第一篇blog。安装hexo的历程也反映了我在THU的心路历程和体会吧。</p><p>  我知道配环境对大佬来说不算什么，我也知道很多牛人觉得hexo已经落伍了。我知道我欢欣雀跃的一切在这里的其实算不了什么。</p><p>  正如我知道我的天赋和努力程度未必达得到园子里面的平均水平。我知道我可能永远不能作为所谓“精英中的精英”。但我不想压榨休息时间内卷，那样无异于行尸走肉。我不想过那样的一生。</p><blockquote><p>  在成人之前，真想先成为自己。</p></blockquote><p>对于这所学校我的感受是复杂的。它让我拥有了优渥的学习资源与机遇，但是也让我知道自身局限性。我不愿意成为一天24小时都在学习的人；我不愿意成为只知道绩点的人；我最不愿意成为机器。我想成为像那些曾经帮助过我的人一样厉害的人类。</p><p>就这样作为利维坦中微不足道的细胞生存下去吧。做事情也未必是为了“成为强者”或者让别人觉得厉害。</p><p>或许某天等我变成真正的大人，我未必会记得程序设计拿了多少绩点，清华园里面竞争多么激烈。等我再老一些，只想坐在门前晒太阳，我也不会在乎当年毕业时的薪水与工作。或许我还能记得，某个下午我做了一些自己觉得很了不起的事：搭建了个人网站。</p><h3 id="以后会发什么"><a href="#以后会发什么" class="headerlink" title="以后会发什么"></a>以后会发什么</h3><p>我的数学与计算机学习；或许会写小说（我梦想着成为作家）；或许会记录一些生活吐槽。</p><p>零零星星。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;欢迎来到我的网站&quot;&gt;&lt;a href=&quot;#欢迎来到我的网站&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的网站&quot;&gt;&lt;/a&gt;欢迎来到我的网站&lt;/h1&gt;&lt;h3 id=&quot;关于网站搭建&quot;&gt;&lt;a href=&quot;#关于网站搭建&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
