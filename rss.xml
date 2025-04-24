@@ -6,7 +6,7 @@
   <link href="https://example.com/rss.xml" rel="self"/>
   
   <link href="https://example.com/"/>
-  <updated>2025-04-22T10:13:59.721Z</updated>
+  <updated>2025-04-22T10:30:59.634Z</updated>
   <id>https://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于配环境的一些教程</title>
+    <link href="https://example.com/2025/04/22/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E6%95%99%E7%A8%8B/"/>
+    <id>https://example.com/2025/04/22/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E6%95%99%E7%A8%8B/</id>
+    <published>2025-04-22T10:26:45.000Z</published>
+    <updated>2025-04-22T10:30:59.634Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="配环境踩过的那些坑"><a href="#配环境踩过的那些坑" class="headerlink" title="配环境踩过的那些坑"></a>配环境踩过的那些坑</h1><blockquote><p>我<strong>每次</strong>配环境都基本上要配两三次，答疑坊加google全部翻遍，可能是我的电脑过于魔性。</p><p>下面介绍一些配环境需要注意的点以及教程：预计更新：VSstudio VScode Choco hexo  etc.</p></blockquote><h3 id="VSstudio-我以为配环境永远会这么简单"><a href="#VSstudio-我以为配环境永远会这么简单" class="headerlink" title="VSstudio:我以为配环境永远会这么简单"></a>VSstudio:我以为配环境永远会这么简单</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;配环境踩过的那些坑&quot;&gt;&lt;a href=&quot;#配环境踩过的那些坑&quot; class=&quot;headerlink&quot; title=&quot;配环境踩过的那些坑&quot;&gt;&lt;/a&gt;配环境踩过的那些坑&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;我&lt;strong&gt;每次&lt;/strong&gt;配环境都基本上要配</summary>
+      
+    
+    
+    
+    
+    <category term="计算机小白" scheme="https://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B0%8F%E7%99%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>First</title>
