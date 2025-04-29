@@ -6,7 +6,7 @@
   <link href="https://example.com/rss.xml" rel="self"/>
   
   <link href="https://example.com/"/>
-  <updated>2025-04-22T10:30:59.634Z</updated>
+  <updated>2025-04-29T06:09:11.467Z</updated>
   <id>https://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>oop查重的故事</title>
+    <link href="https://example.com/2025/04/29/oop%E6%9F%A5%E9%87%8D%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%9C/"/>
+    <id>https://example.com/2025/04/29/oop%E6%9F%A5%E9%87%8D%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%9C/</id>
+    <published>2025-04-29T06:07:33.000Z</published>
+    <updated>2025-04-29T06:09:11.467Z</updated>
+    
+    <content type="html"><![CDATA[<p>​     今天才得知oop是要查重的！！！！！！！！！</p><p>​     并且数据结构只会查重更加严峻。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​     今天才得知oop是要查重的！！！！！！！！！&lt;/p&gt;
+&lt;p&gt;​     并且数据结构只会查重更加严峻。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>关于配环境的一些教程</title>
