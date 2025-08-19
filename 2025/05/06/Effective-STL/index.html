@@ -21,27 +21,24 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"changyan","storage":true,"lazyload":false,"nav":null,"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="欢迎来到我的网站关于网站搭建   大约三月初受到启发开始搭建，第一次搭建由于无论如何都无法deploy失败了。陆陆续续学了些oop往答疑坊跑了好几次，知道了choco的用法也学会了一些快捷键。后来又惊奇的发现某些软件的安装居然需要调整电脑中杀毒软件的配置。   2025.4.22，我又一次挑战hexo尝试配置个人博客。又是deploy不上去。我翻遍了google和CSDN，尝试了各种方法。跌跌撞撞">
-<meta property="og:type" content="article">
-<meta property="og:title" content="First">
-<meta property="og:url" content="https://example.com/2025/04/22/First/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="Effective STL">
+<meta property="og:url" content="https://example.com/2025/05/06/Effective-STL/index.html">
 <meta property="og:site_name" content="Narrow gate leadeth unto life.">
-<meta property="og:description" content="欢迎来到我的网站关于网站搭建   大约三月初受到启发开始搭建，第一次搭建由于无论如何都无法deploy失败了。陆陆续续学了些oop往答疑坊跑了好几次，知道了choco的用法也学会了一些快捷键。后来又惊奇的发现某些软件的安装居然需要调整电脑中杀毒软件的配置。   2025.4.22，我又一次挑战hexo尝试配置个人博客。又是deploy不上去。我翻遍了google和CSDN，尝试了各种方法。跌跌撞撞">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-04-22T09:20:48.000Z">
-<meta property="article:modified_time" content="2025-04-22T10:13:59.721Z">
+<meta property="article:published_time" content="2025-05-06T06:56:04.000Z">
+<meta property="article:modified_time" content="2025-05-06T06:56:04.620Z">
 <meta property="article:author" content="XU">
-<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://example.com/2025/04/22/First/">
+<link rel="canonical" href="https://example.com/2025/05/06/Effective-STL/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://example.com/2025/04/22/First/","path":"2025/04/22/First/","title":"First"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://example.com/2025/05/06/Effective-STL/","path":"2025/05/06/Effective-STL/","title":"Effective STL"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>First | Narrow gate leadeth unto life.</title>
+<title>Effective STL | Narrow gate leadeth unto life.</title>
   
 
 
@@ -123,7 +120,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -136,7 +133,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99"><span class="nav-number">1.</span> <span class="nav-text">欢迎来到我的网站</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA"><span class="nav-number">1.0.1.</span> <span class="nav-text">关于网站搭建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A5%E5%90%8E%E4%BC%9A%E5%8F%91%E4%BB%80%E4%B9%88"><span class="nav-number">1.0.2.</span> <span class="nav-text">以后会发什么</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -149,7 +145,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -181,7 +177,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://example.com/2025/04/22/First/">
+    <link itemprop="mainEntityOfPage" href="https://example.com/2025/05/06/Effective-STL/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -194,12 +190,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="First | Narrow gate leadeth unto life.">
+      <meta itemprop="name" content="Effective STL | Narrow gate leadeth unto life.">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          First
+          Effective STL
         </h1>
 
         <div class="post-meta-container">
@@ -209,13 +205,12 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2025-04-22 17:20:48 / 修改时间：18:13:59" itemprop="dateCreated datePublished" datetime="2025-04-22T17:20:48+08:00">2025-04-22</time>
+      <time title="创建时间：2025-05-06 14:56:04" itemprop="dateCreated datePublished" datetime="2025-05-06T14:56:04+08:00">2025-05-06</time>
     </span>
 
   
-    <span id="/2025/04/22/First/" class="post-meta-item leancloud_visitors" data-flag-title="First" title="阅读次数">
+    <span id="/2025/05/06/Effective-STL/" class="post-meta-item leancloud_visitors" data-flag-title="Effective STL" title="阅读次数">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
@@ -230,8 +225,8 @@
       </span>
       <span class="post-meta-item-text">Changyan：</span>
     
-    <a title="First" href="/2025/04/22/First/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::3b25187119bb332652a8b9a4557389e1" class="cy_cmt_count" itemprop="commentCount"></span>
+    <a title="Effective STL" href="/2025/05/06/Effective-STL/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::ee18c2d74f335733cacf7faed8b94f8a" class="cy_cmt_count" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -244,19 +239,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="欢迎来到我的网站"><a href="#欢迎来到我的网站" class="headerlink" title="欢迎来到我的网站"></a>欢迎来到我的网站</h1><h3 id="关于网站搭建"><a href="#关于网站搭建" class="headerlink" title="关于网站搭建"></a>关于网站搭建</h3><p>   大约三月初受到启发开始搭建，第一次搭建由于无论如何都无法deploy失败了。陆陆续续学了些oop往答疑坊跑了好几次，知道了choco的用法也学会了一些快捷键。后来又惊奇的发现某些软件的安装居然需要调整电脑中杀毒软件的配置。</p>
-<p>  2025.4.22，我又一次挑战hexo尝试配置个人博客。又是deploy不上去。我翻遍了google和CSDN，尝试了各种方法。跌跌撞撞，在学长志愿者的帮助下，终于发出了自己的第一篇blog。安装hexo的历程也反映了我在THU的心路历程和体会吧。</p>
-<p>  我知道配环境对大佬来说不算什么，我也知道很多牛人觉得hexo已经落伍了。我知道我欢欣雀跃的一切在这里的其实算不了什么。</p>
-<p>  正如我知道我的天赋和努力程度未必达得到园子里面的平均水平。我知道我可能永远不能作为所谓“精英中的精英”。但我不想压榨休息时间内卷，那样无异于行尸走肉。我不想过那样的一生。</p>
-<blockquote>
-<p>  在成人之前，真想先成为自己。</p>
-</blockquote>
-<p>对于这所学校我的感受是复杂的。它让我拥有了优渥的学习资源与机遇，但是也让我知道自身局限性。我不愿意成为一天24小时都在学习的人；我不愿意成为只知道绩点的人；我最不愿意成为机器。我想成为像那些曾经帮助过我的人一样厉害的人类。</p>
-<p>就这样作为利维坦中微不足道的细胞生存下去吧。做事情也未必是为了“成为强者”或者让别人觉得厉害。</p>
-<p>或许某天等我变成真正的大人，我未必会记得程序设计拿了多少绩点，清华园里面竞争多么激烈。等我再老一些，只想坐在门前晒太阳，我也不会在乎当年毕业时的薪水与工作。或许我还能记得，某个下午我做了一些自己觉得很了不起的事：搭建了个人网站。</p>
-<h3 id="以后会发什么"><a href="#以后会发什么" class="headerlink" title="以后会发什么"></a>以后会发什么</h3><p>我的数学与计算机学习；或许会写小说（我梦想着成为作家）；或许会记录一些生活吐槽。</p>
-<p>零零星星。</p>
-
+    <div class="post-body" itemprop="articleBody">
     </div>
 
     
@@ -264,18 +247,18 @@
     
 
     <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag"># 随笔</a>
-          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2025/04/29/oop%E6%9F%A5%E9%87%8D%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%9C/" rel="prev" title="oop查重的故事">
+                  <i class="fa fa-angle-left"></i> oop查重的故事
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2025/04/22/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E6%95%99%E7%A8%8B/" rel="next" title="关于配环境的一些教程">
-                  关于配环境的一些教程 <i class="fa fa-angle-right"></i>
+                <a href="/2025/08/19/Matlab%E7%AC%94%E8%AE%B0/" rel="next" title="">
+                   <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -288,7 +271,7 @@
 
 
 
-    <div class="comments" id="SOHUCS" sid="3b25187119bb332652a8b9a4557389e1"></div>
+    <div class="comments" id="SOHUCS" sid="ee18c2d74f335733cacf7faed8b94f8a"></div>
 </div>
   </main>
 
